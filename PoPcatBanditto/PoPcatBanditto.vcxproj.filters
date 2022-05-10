@@ -1,0 +1,171 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Classes">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Classes\Button">
+      <UniqueIdentifier>{6ac8f806-ac64-409d-b3d7-ad873acbb925}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\StateMashine">
+      <UniqueIdentifier>{e9d28921-711f-4abf-a7aa-bb95df2f1694}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Element">
+      <UniqueIdentifier>{00b1404d-2f0c-48d8-9438-03bc4393ae41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Grid">
+      <UniqueIdentifier>{9d6ed8c6-0d2e-48e3-85f4-4877fff449a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Timer">
+      <UniqueIdentifier>{a43535e9-3fca-49e0-90be-1de29c5a70c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Game">
+      <UniqueIdentifier>{472e692b-dabf-4f30-875e-cec85d38641a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Element\Eye">
+      <UniqueIdentifier>{45214dec-e428-4777-a69b-d857f617e5e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Element\Musk">
+      <UniqueIdentifier>{280c3c5f-6fd7-4c84-ad0a-3ae549590411}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Element\Oatmeal">
+      <UniqueIdentifier>{3ba028d9-1c94-4b96-abff-742a5714ed98}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\StateMashine\States">
+      <UniqueIdentifier>{b18a9db1-d74e-4aec-bbd0-5eae24d9adc1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\StateMashine\States\Waiting">
+      <UniqueIdentifier>{320e8b43-2fe9-433a-8082-ce253b7ac15e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\StateMashine\States\Rolling">
+      <UniqueIdentifier>{30173707-7af9-479b-a1a3-8f3851fc7c01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\StateMashine\States\Prize">
+      <UniqueIdentifier>{b8234a4a-23e5-4d0c-9dcd-350bd1338104}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\StateMashine\States\Acceleration">
+      <UniqueIdentifier>{87f61057-4386-48b4-90c9-2509fa607b02}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\StateMashine\States\Deceleration">
+      <UniqueIdentifier>{ca6879cf-570e-4eef-8512-1d38006d81ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\StateMashine\States\StateTurn">
+      <UniqueIdentifier>{4276c87f-cb2e-4dc1-9ba3-eb6214fb0832}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\main.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Widgets\Button\Button.cpp">
+      <Filter>Classes\Button</Filter>
+    </ClCompile>
+    <ClCompile Include="src\StateMashine\StateMashine.cpp">
+      <Filter>Classes\StateMashine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Widgets\Element\Element.cpp">
+      <Filter>Classes\Element</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Widgets\Musk\Musk.cpp">
+      <Filter>Classes\Element\Musk</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Widgets\Eye\Eye.cpp">
+      <Filter>Classes\Element\Eye</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Widgets\Oatmeal\Oatmeal.cpp">
+      <Filter>Classes\Element\Oatmeal</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Widgets\Grid\Grid.cpp">
+      <Filter>Classes\Grid</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Timer\Timer.cpp">
+      <Filter>Classes\Timer</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Game\Game.cpp">
+      <Filter>Classes\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="src\StateMashine\State.cpp">
+      <Filter>Classes\StateMashine\States</Filter>
+    </ClCompile>
+    <ClCompile Include="src\StateMashine\StatePrize.cpp">
+      <Filter>Classes\StateMashine\States\Prize</Filter>
+    </ClCompile>
+    <ClCompile Include="src\StateMashine\StateRolling.cpp">
+      <Filter>Classes\StateMashine\States\Rolling</Filter>
+    </ClCompile>
+    <ClCompile Include="src\StateMashine\StateWaiting.cpp">
+      <Filter>Classes\StateMashine\States\Waiting</Filter>
+    </ClCompile>
+    <ClCompile Include="src\StateMashine\StateDecelaration.cpp">
+      <Filter>Classes\StateMashine\States\Deceleration</Filter>
+    </ClCompile>
+    <ClCompile Include="src\StateMashine\StateAcceleration.cpp">
+      <Filter>Classes\StateMashine\States\Acceleration</Filter>
+    </ClCompile>
+    <ClCompile Include="src\StateMashine\StateTurn.cpp">
+      <Filter>Classes\StateMashine\States\StateTurn</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\Widgets\Button\Button.h">
+      <Filter>Classes\Button</Filter>
+    </ClInclude>
+    <ClInclude Include="src\StateMashine\StateMashine.h">
+      <Filter>Classes\StateMashine</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Widgets\Element\Element.h">
+      <Filter>Classes\Element</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Widgets\Musk\Musk.h">
+      <Filter>Classes\Element\Musk</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Widgets\Eye\Eye.h">
+      <Filter>Classes\Element\Eye</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Widgets\Oatmeal\Oatmeal.h">
+      <Filter>Classes\Element\Oatmeal</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Widgets\Grid\Grid.h">
+      <Filter>Classes\Grid</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Timer\Timer.h">
+      <Filter>Classes\Timer</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Game\Game.h">
+      <Filter>Classes\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="src\StateMashine\State.h">
+      <Filter>Classes\StateMashine\States</Filter>
+    </ClInclude>
+    <ClInclude Include="src\StateMashine\StatePrize.h">
+      <Filter>Classes\StateMashine\States\Prize</Filter>
+    </ClInclude>
+    <ClInclude Include="src\StateMashine\StateRolling.h">
+      <Filter>Classes\StateMashine\States\Rolling</Filter>
+    </ClInclude>
+    <ClInclude Include="src\StateMashine\StateWaiting.h">
+      <Filter>Classes\StateMashine\States\Waiting</Filter>
+    </ClInclude>
+    <ClInclude Include="src\StateMashine\StateDeceleration.h">
+      <Filter>Classes\StateMashine\States\Deceleration</Filter>
+    </ClInclude>
+    <ClInclude Include="src\StateMashine\StateAcceleration.h">
+      <Filter>Classes\StateMashine\States\Acceleration</Filter>
+    </ClInclude>
+    <ClInclude Include="src\StateMashine\StateTurn.h">
+      <Filter>Classes\StateMashine\States\StateTurn</Filter>
+    </ClInclude>
+    <ClInclude Include="src\UsefullFunction.hpp">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
